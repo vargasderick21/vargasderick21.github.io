@@ -107,7 +107,7 @@ header{
 
 #portada{
     
-    background-image: url(Imagenes/Portada.png);
+    background-image: url(Imagenes/Portada.avif);
     background-size: cover;
     height: 52rem;
     width: 100%;
@@ -175,7 +175,7 @@ header{
 
 
 #contacto{
-    background-image: url(Imagenes/Fondo.jpg);
+    background-image: url(Imagenes/Fondo.avif);
     background-repeat: no-repeat;
    
     background-size: cover  ;
@@ -548,3 +548,4 @@ form{
 
    
 }
+
