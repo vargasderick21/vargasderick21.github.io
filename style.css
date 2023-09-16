@@ -120,10 +120,11 @@ header{
    
     
 }
+
 .p-texto h1{
     font-size: 80px;
     line-height: 7rem;
-    color: rgb(141, 97, 30);
+    color: rgb(255, 255, 255);
 }
 .p-texto p{
     width: 550px;
@@ -132,7 +133,7 @@ header{
 
 .p-texto button{
     font-size: 18px;
-   background-color: rgb(141, 97, 30);
+   background-color: rgb(250, 187, 92);
    border: none;
    padding: 10px 25px;
    border-radius: 25px;
@@ -142,6 +143,7 @@ header{
    
    
 }
+
 
 
 
