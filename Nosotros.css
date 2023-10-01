@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Mooli&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem;
+    background-color: rgb(1, 11, 41);
+}
+
+.logo{
+   width: 8rem;
+   
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 8rem;
+    margin-right: 20px;
+   
+
+
+}   
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.abrir-menu{
+    display: none;
+}
+
+.cerrar-menu{
+    display: none;
+
+}
+
+
+*/*
+@media screen and (max-width:550px) {
+
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: ponter;
+    }
+
+    .abrir-menu{
+        color: #1c1c1c;
+    }
+
+    .cerrar-menu{
+        color: #ececec;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #1c1c1c;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5)
+
+        
+        
+    }
+
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li a {
+        color: #ecececec;
+    }
+
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .abrir-menu{
+        color: aliceblue;
+    }
+   .cerrar-menu{
+    margin-top: 10px;
+    font-size: 2.5rem;
+
+   }
+
+   .nav{
+      opacity: 0;
+      visibility: hidden;
+      
+       display: flex;
+       flex-direction: column;
+       align-items: end;
+       gap: 1rem;
+      position: absolute;
+      top:0;
+      right: 0;
+      bottom: 0;
+      background-color: rgb(61, 60, 60);
+      padding: 1rem;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    
+    }
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+   .nav-list{
+      flex-direction: column;
+      align-items: end;
+      margin: 0;
+      gap: 3rem;
+
+    }
+
+   .nav-list li a{
+      color: rgb(255, 255, 255);
+      padding: 1rem;
+    }
+    .logo{
+        width: 4.5rem;
+    }
+    
+}*/
+
+
+
+
+
+.products {
+    height: 60px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.products h2{
+    color: rgb(168, 168, 168);
+    font-family: 'Bellefair', serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    width: 100px;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 50px;
+}
+
+.product {
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.product img {
+    width: 250px;
+    height: 120px;
+    margin-bottom: 22px;  
+    
+
+}
+
+
+.ads-banner img{
+    height: 350px;
+}
+
+
+
+#terminos{
+    background-color: rgb(63, 62, 62);
+    height: 35.5rem;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+.terminos img{
+    width: 300px;
+}
+.descrip{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    gap: 1.7rem;
+    
+    
+   
+    
+}
+.terminos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
+    padding: 10rem 20rem 0 5rem;
+    
+    
+}
+
+
+.final{
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    padding: 6rem 5rem 0 5rem;
+    align-items: center;
+    
+}
+.final img{
+    cursor: pointer;
+}
+.final p{
+    font-size: 12px;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:750px) {
+
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .abrir-menu{
+        color: aliceblue;
+    }
+   .cerrar-menu{
+    margin-top: 10px;
+    font-size: 2.5rem;
+
+   }
+
+   .nav{
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      flex-direction: column;
+       align-items: end;
+       gap: 1rem;
+      position: absolute;
+      top:0;
+      right: 0;
+      left: 12rem;
+      bottom: 0;
+      background-color: rgb(61, 60, 60);
+      padding: 1rem;
+      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    
+    }
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+   .nav-list{
+      flex-direction: column;
+      align-items: end;
+      margin: 0;
+      gap: 3rem;
+
+    }
+
+   .nav-list li a{
+      color: rgb(255, 255, 255);
+      padding: 1rem;
+    }
+     .img{
+        width: 100%;
+    }
+    .logo{
+        width: 4.5rem;
+    }
+   
+
+
+
+
+
+
+
+
+    #portada{
+        height: 500px;
+    }
+
+    .p-texto{
+        padding: 0px 10px 0 70px;
+    }
+
+    .p-texto h1{
+        font-size: 50px;
+    }
+    .p-texto p{
+        width: 350px;
+        padding: 30px 0;
+        text-align: justify;
+    }
+    
+    .p-texto button{
+        margin: 4px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .nosotros{
+        flex-direction: column;
+        display: block;
+        padding: 0;
+           
+    }
+
+    .nosotros img{
+      width: 500px;
+      
+        
+    }
+
+    .letra-2{
+        padding: 40px 0 30px 40px ;
+        margin: 0;
+     
+        
+    }
+    .letra-2 h1{
+        margin-left: 60px;
+    }
+
+    .letra-2 p{
+        width: 400px;
+        text-align: justify;
+       
+
+    }
+
+    .letra-2 button{
+       margin-left: 130px;
+        
+    }
+
+
+
+
+
+
+
+    #services{
+        padding: 0;
+        height: 75rem;
+        text-align: center;
+        
+    }
+    .services{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .serv-1{
+        flex-direction: column;
+        
+        
+    }
+
+    .corte{
+        width: 100%;
+    }
+
+    .product {
+        margin-bottom: 30px;
+    }
+
+    .product h2 {
+        margin-bottom: 30px;
+    }
+
+    .product-content{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .product img{
+        width: 200px;
+        height: 280px;
+    }
+
+    .icons {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .blog {
+        padding: 0 30px 30px 30px;
+        flex-direction: column;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    .ads-banner img{
+        height: 200px;
+    }
+
+
+
+
+
+    #contacto{
+        text-align: center;
+         
+         
+     }
+ 
+     #terminos{
+         height: 1100px;
+     }
+ 
+ 
+     .terminos{
+         display: block;
+         padding: 0;
+         line-height: 3rem;
+     }
+ 
+     .terminos img{
+         justify-content: space-between;
+         width: 100% ;
+         
+     }
+ 
+         .descrip{
+             text-align: center;
+             
+         }
+ 
+ 
+ 
+         .final{
+             padding: 40px;
+             flex-direction: column-reverse;
+         }
+
+    
+   
+
+    
+
+
+
+}
